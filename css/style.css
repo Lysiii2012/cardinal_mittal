@@ -606,8 +606,9 @@ h2{
  }
  .map{
     width: 460px;
-    height: 240px;
+    height: 260px;
     overflow: hidden;
+    margin: -10px 0;
  }
  html{
     scroll-behavior: smooth;
@@ -982,5 +983,10 @@ h2{
     }
     footer{
         padding: 20px;
+    }
+ }
+ @media screen and (max-width: 420px) {
+    .tel-block a{
+        font-size: 26px;
     }
  }
