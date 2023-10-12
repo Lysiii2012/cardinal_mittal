@@ -984,6 +984,12 @@ h2{
     footer{
         padding: 20px;
     }
+    .map-block{
+        padding: 0;
+    }
+    .map-block h2{
+        padding: 5px 20px;
+    }
  }
  @media screen and (max-width: 420px) {
     .tel-block a{
