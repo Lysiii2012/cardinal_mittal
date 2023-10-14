@@ -16,12 +16,12 @@
 //     form.classList.remove('show')
 // })
 
-// const icons = document.querySelectorAll('.icon');
-// icons.forEach (icon => {  
-//   icon.addEventListener('click', (event) => {
-//     event.preventDefault()
-//     icon.classList.toggle("open");
-//     document.querySelector('.header-nav').classList.toggle('open')
-//   });
-// });
+const icons = document.querySelectorAll('.icon');
+icons.forEach (icon => {  
+  icon.addEventListener('click', (event) => {
+    event.preventDefault()
+    icon.classList.toggle("open");
+    document.querySelector('.header-nav').classList.toggle('open')
+  });
+});
 
